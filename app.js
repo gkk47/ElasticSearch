@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var mongoose =  require('mongoose');
 var mongoosastic = require('mongoosastic');
 var Schema = mongoose.Schema;
-/*ElasticSearch*/
+/*ElasticSearch App*/
 mongoose.connect('mongodb://localhost/silly-blog', function(err){
 		  console.log(err);
 		    console.log('connected.... unless you see an error the line before this!');
