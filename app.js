@@ -34,6 +34,8 @@ test.save(function(err,test_user){
 	if (err) throw err;
 	console.log("Saved user "+test_user );
 });
+
+
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
